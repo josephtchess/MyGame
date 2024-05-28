@@ -18,7 +18,7 @@ button.addEventListener('mouseup', function () {
     let randnum = Math.floor(Math.random()*10);
     console.log(randnum);
     if (randnum == 5){
-        button.textContent = "KILL YOURSELF :3";
+        button.textContent = "Lobotomy :3";
     } else {
         button.textContent = "Click Me";
     }
